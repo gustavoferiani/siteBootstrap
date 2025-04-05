@@ -32,15 +32,132 @@
 
 <body>
 
-    <header id="" class="">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            
+            <!-- logo -->
+            <a href="#home" class="logo d-flex align-items-center">
+
+                <h1 class="sitename"> Agency </h1>
+
+            </a>
+
+            <!-- menu -->
+            <nav id="navmenu" class="navmenu">
+                
+                <ul>
+                    <li>
+                        <a href="#home" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"> Sobre </a>
+                    </li>
+                    <li>
+                        <a href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio </a>
+                    </li>
+                    <li> 
+                        <a href="#team"> Equipe </a>
+                    </li>
+                    <li class="dropdown"> 
+                        <a href="#">
+                            <span>Mais Opções</span>
+                            <i class="bi bi-chevron-down"> </i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">Opção 1</a>
+                            </li>
+                            <li>
+                                <a href="">Opção 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list text-dark"> </i>
+            </nav>
+
+        </div>
+
 
     </header>
 
-    <main id="" class="">
 
+    <main class="main">
         
-        
+        <section id="hero" class="hero section dark-background">
+
+            <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="img/hero/hero-carousel-1.jpg" alt="">
+                   
+                    <div class="carousel-container">
+                        <h2>Bem Vindo nome da EMPRESA</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime voluptas adipisci et minima accusantium quod repellat.</p>
+                        <a href="#" target="_blank" class="btn-get-started">
+                            Leia Mais...
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="img/hero/hero-carousel-2.jpg" alt="">
+                   
+                    <div class="carousel-container">
+                        <h2>Texto teste 2</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime voluptas adipisci et minima accusantium quod repellat.</p>
+                        <a href="#" target="_blank" class="btn-get-started">
+                            Leia Mais...
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="img/hero/hero-carousel-3.jpg" alt="">
+                   
+                    <div class="carousel-container">
+                        <h2>Texto teste 3</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime voluptas adipisci et minima accusantium quod repellat.</p>
+                        <a href="#" target="_blank" class="btn-get-started">
+                            Leia Mais...
+                        </a>
+                    </div>
+                </div>
+
+
+                <a href="#hero-carousel" role="button" data-bs-slide="prev" class="carousel-control-prev">
+
+                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"> </span>
+
+                </a>
+
+                <a href="#hero-carousel" role="button" data-bs-slide="next" class="carousel-control-next" aria-hidden="true">
+
+                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"> </span>
+                </a>
+
+                <ol class="carousel-indicators"> </ol>
+
+            </div>
+
+
+        </section>
+
     </main>
+
 
     <footer id="" class="">
 
