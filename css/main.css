@@ -657,3 +657,42 @@ section,
     opacity: 0;
   }
 }
+
+/* Stats = Estatística */
+
+.stats .stats-item {
+  padding: 30px;
+  width: 100%;
+}
+
+.stats {
+  background: #e3e0e0;
+}
+
+.stats .stats-item i {
+  color: var(--accent-color);
+  display: block;
+  font-size: 44px;
+  float: left;
+  line-height: 0;
+}
+
+/* span = purecounter */
+.stats .stats-item .purecounter {
+  color: var(--accent-color);
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+/*   font-family: "Raleway", sans-serif; */
+  margin-left: 60px;
+}
+
+.stats .stats-item p {
+  color: #949494;
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: var(--font-titulo);
+  font-size: 14px;
+}
+
