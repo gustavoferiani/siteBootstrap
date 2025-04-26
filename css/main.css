@@ -696,3 +696,22 @@ section,
   font-size: 14px;
 }
 
+
+/* Services */
+.services .service-item {
+  position: relative;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.services .service-item .icon {
+  margin-right: 20px;
+}
+
+.services .service-item .icon i {
+  color: var(--accent-color);
+  font-size: 40px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
