@@ -365,6 +365,47 @@ section,
   padding: 60px 0;
 }
 
+@media (max-width: 1199px) {
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+/* Global Title */
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #c8c5c575;
+  color: #428bca;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-family: var(--font-padrao);
+}
+
+.section-title div {
+  color: #060606;
+  margin: 10px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--font-titulo);
+}
+
+.section-title div .description-title {
+  color: #428bca;
+}
+
+
 .dark-background {
   --background-color: #060606;
   --default-color: #f1f0f0;
@@ -713,5 +754,66 @@ section,
   font-size: 40px;
   line-height: 0;
   transition: 0.3s;
+}
+
+.services .service-item:hover .icon i {
+  color: #365676;
+  transition: all .2s ease-in;
+}
+
+/* h4 */
+.services .service-item .title {
+  color: #365676;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  
+}
+
+.services .service-item .description {
+  font-size: 15px;
+  color: #060606;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Sroll-top = Botão de voltar ao topo do Site */
+
+.scroll-top {
+  position: fixed;
+  background-color: #428bca;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  z-index: 99999;
+  right: 15px;
+  bottom: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: #6ba7dcd9;
+  transition: all .2s ease-in-out;
+}
+
+.scroll-top i:hover {
+  color: #060606;
+  transition: all .2s ease-in-out;
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
 }
 
