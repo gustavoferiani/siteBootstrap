@@ -811,6 +811,46 @@ section,
 }
 
 
+
+
+
+
+/* Portfolio // Galeria */
+.portfolio .portfolio-filters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio .portfolio-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 10px;
+  line-height: 1;
+  margin-bottom: 5px;
+  transition: all .3s ease-in-out;
+}
+
+.portfolio .portfolio-filters li:hover,
+.portfolio .portfolio-filters li.filter-active {
+  color: #428bca;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Sroll-top = Botão de voltar ao topo do Site */
 
 .scroll-top {
