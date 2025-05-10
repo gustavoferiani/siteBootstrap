@@ -841,10 +841,57 @@ section,
   font-weight: 600;
 }
 
+@media (max-width: 575px) {
+  .portfolio .portfolio-filters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}
 
+.portfolio .portfolio-content {
+  position: relative;
+  overflow: hidden;
+}
 
+.portfolio .portfolio-content img {
+  transition: .3s;
+}
 
+.portfolio .portfolio-content .portfolio-info {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  transition: all .3s ease-in-out;
+  background: #0606063e;
+  padding: 15px;
+  /* opacity: 0; */
+}
 
+.portfolio .portfolio-content:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-content .portfolio-info .preview-link,
+.portfolio .portfolio-content .portfolio-info .details-link {
+  position: absolute;
+  font-size: 26px;
+  color: #fff;
+  left: calc(50% - 40px);
+  top: calc(50% - 14px);
+  line-height: 1.2;
+  transition: 0.3s;
+  /* 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  */
+}
+
+.portfolio .portfolio-content .portfolio-info .details-link {
+  left: 50%;
+  font-size: 34px;
+  line-height: 0;
+}
 
 
 
