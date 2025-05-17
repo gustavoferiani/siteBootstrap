@@ -812,8 +812,48 @@ section,
   z-index: 1;
 }
 
+.call-to-action::before {
+  content: "";
+  background: #272728c3;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
 
+.call-to-action .container {
+  position: relative;
+  z-index: 3;
+}
 
+.call-to-action h3 {
+  font-weight: 800;
+  text-shadow: 2px 0px 3px #262626;
+  font-size: 30px;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  margin-top: 45px;
+}
+
+.call-to-action .cta-btn {
+  font-family: var(--font-titulo);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border: 2px solid #e3e0e0;
+  color: #e3e0e0;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: .5s;
+  margin: 10px;
+}
+
+.call-to-action .cta-btn:hover {
+  background: #075e54;
+  border: 2px solid #075e54;
+}
 
 
 
@@ -897,6 +937,30 @@ section,
 .portfolio .portfolio-content:hover .portfolio-info {
   opacity: 1;
 }
+
+
+/* ---------------------
+# Feedbacks 
+----------------------*/
+.feedbacks .feedback-item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  position: relative;
+  height: 100%;
+}
+
+.feedbacks .feedback-item .feedback-img {
+  width: 90px;
+  border-radius: 50px;
+  border: 6px solid #fafafa;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+
+
+
 
 
 
