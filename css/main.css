@@ -1085,7 +1085,7 @@ section,
 }
 
 .team .member:hover .member-info-content {
-  bottom: 68px;
+  bottom: 60px;
   transition: bottom 0.4s;
 }
 
