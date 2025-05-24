@@ -958,13 +958,51 @@ section,
   margin: 0 10px 0 0;
 }
 
+.feedbacks .feedback-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
 
+.feedbacks .feedback-item h4 {
+  font-size: 14px;
+  color: #26262692;
+  margin: 0;
+}
 
+.feedbacks .feedback-item .stars {
+  margin: 10px 0;
+} 
 
+.feedbacks .feedback-item .stars i {
+  color: #ffc107;
+  margin: 0 1px;
+}
 
+.feedbacks .feedback-item .quote-icon-left, 
+.feedbacks .feedback-item .quote-icon-right {
+  color: #428bca79;
+  font-size: 26px;
+  line-height: 0;
+}
 
+.feedbacks .feedback-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
 
+.feedbacks .feedback-item .quote-icon-right {
+  display: inline-block; /* permitir transformação e dimensão */
+  right: -5px; 
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1); /* inverter o elemento horizontal e vertical */
+}
 
+.feedbacks .feedback-item p {
+  
+}
 
 
 /* Sroll-top = Botão de voltar ao topo do Site */
