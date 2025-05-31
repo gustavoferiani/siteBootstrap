@@ -1094,6 +1094,78 @@ section,
   transition: bottom ease-in-out 0.4s;
 }
 
+/* ---------------------------------
+# Contato // Forms  
+------------------------------------- */
+.contact .info-item {
+  /* background: #f1f0f0b4; */
+  background: color-mix(in srgb, var(--default-color), transparent 96% );
+  padding: 30px;
+}
+
+.contact .info-item i {
+  color: #428bca;
+  font-size: 38px;
+  line-height: 0;
+}
+
+.contact .info-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact .info-item p {
+  margin: 0;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0;
+}
+
+/* Forms */
+.contact .email-form {
+  background: color-mix(in srgb, var(--default-color), transparent 96% );
+  padding: 30px;
+  height: 100%;
+}
+
+.contact .email-form input[type=text],
+.contact .email-form input[type=email],
+.contact .email-form textarea {
+  font-size: 14px;
+  border-radius: 0;
+  color: #252525;
+  background: #ffffff80;
+  border-color: #46464630;
+  box-shadow: none;
+}
+
+.contact .email-form input[type=text]:focus,
+.contact .email-form input[type=email]:focus,
+.contact .email-form textarea:focus {
+  border-color: var(--accent-color);
+}
+
+.contact .email-form input[type=text]::placeholder,
+.contact .email-form input[type=email]::placeholder {
+  color: #acacac9a;
+}
+
+/* Sobrescrever estilo do Bootstrap */
+/* .contact .email-form button[type=submit] {
+  background: red;
+  color: black;
+}
+ */
+.contact .email-form button[type=submit]:hover {
+  background: #428bcadb;
+  border: none;
+  color: #cbdff1;
+}
+
+
+
+
 
 /* Sroll-top = Botão de voltar ao topo do Site */
 
