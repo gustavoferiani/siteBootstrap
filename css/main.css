@@ -1163,7 +1163,108 @@ section,
   color: #cbdff1;
 }
 
+/* ------------------
+# Footer 
+--------------------- */
 
+.footer {
+  position: relative;
+  font-size: 14px;
+}
+
+.footer .footer-top {
+  padding-top: 50px;
+}
+
+.footer .footer-about .logo {
+  margin-bottom: 25px;
+  line-height: 1;
+}
+
+.footer .footer-about .logo span {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: var(--font-titulo);
+}
+
+.footer .footer-about p {
+  margin-bottom: 0;
+  color: #dcdcdc;
+}
+
+.footer .social-links a {
+  display: flex;
+  margin-right: 10px;
+  color: #e7e7e768;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e7e7e768;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #428bca;
+  border-color: #428bca;
+}
+
+.footer h4 {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  font-size: 12px;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  color: #cacacaa1;
+  line-height: 1;
+  display: inline-block;
+}
+
+.footer .footer-links ul a:hover {
+  color: #fff;
+}
+
+.footer .footer-newsletter {
+  color: #fff;
+}
+
+.footer .footer-newsletter .newsletter-form {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 6px 8px;
+  position: relative;
+  border-radius: 4px;
+  display: flex;
+  background: #060606;
+  border: 1px solid #aaaaaa88;
+  transition: 0.3s;
+}
 
 
 
